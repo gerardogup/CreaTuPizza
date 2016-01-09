@@ -12,6 +12,12 @@
 		564D9C8E1C3F3A7800191107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564D9C8C1C3F3A7800191107 /* Main.storyboard */; };
 		564D9C901C3F3A7800191107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564D9C8F1C3F3A7800191107 /* Assets.xcassets */; };
 		564D9C931C3F3A7800191107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564D9C911C3F3A7800191107 /* LaunchScreen.storyboard */; };
+		565C94981C41718C00CF3D47 /* TamanoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C94971C41718C00CF3D47 /* TamanoController.swift */; };
+		565C949A1C4171F400CF3D47 /* MasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C94991C4171F400CF3D47 /* MasaController.swift */; };
+		565C949C1C41720700CF3D47 /* QuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C949B1C41720700CF3D47 /* QuesoController.swift */; };
+		565C949E1C41728800CF3D47 /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C949D1C41728800CF3D47 /* IngredientesController.swift */; };
+		565C94A01C41944C00CF3D47 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C949F1C41944C00CF3D47 /* Datos.swift */; };
+		565C94A21C4197BB00CF3D47 /* ResumenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565C94A11C4197BB00CF3D47 /* ResumenController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		564D9C8F1C3F3A7800191107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564D9C921C3F3A7800191107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		564D9C941C3F3A7800191107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		565C94971C41718C00CF3D47 /* TamanoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoController.swift; sourceTree = "<group>"; };
+		565C94991C4171F400CF3D47 /* MasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaController.swift; sourceTree = "<group>"; };
+		565C949B1C41720700CF3D47 /* QuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoController.swift; sourceTree = "<group>"; };
+		565C949D1C41728800CF3D47 /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		565C949F1C41944C00CF3D47 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		565C94A11C4197BB00CF3D47 /* ResumenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResumenController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				564D9C8F1C3F3A7800191107 /* Assets.xcassets */,
 				564D9C911C3F3A7800191107 /* LaunchScreen.storyboard */,
 				564D9C941C3F3A7800191107 /* Info.plist */,
+				565C94971C41718C00CF3D47 /* TamanoController.swift */,
+				565C94991C4171F400CF3D47 /* MasaController.swift */,
+				565C949B1C41720700CF3D47 /* QuesoController.swift */,
+				565C949D1C41728800CF3D47 /* IngredientesController.swift */,
+				565C949F1C41944C00CF3D47 /* Datos.swift */,
+				565C94A11C4197BB00CF3D47 /* ResumenController.swift */,
 			);
 			path = CreaTuPizza;
 			sourceTree = "<group>";
@@ -136,6 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				564D9C8B1C3F3A7800191107 /* ViewController.swift in Sources */,
+				565C949A1C4171F400CF3D47 /* MasaController.swift in Sources */,
+				565C949E1C41728800CF3D47 /* IngredientesController.swift in Sources */,
+				565C949C1C41720700CF3D47 /* QuesoController.swift in Sources */,
+				565C94A01C41944C00CF3D47 /* Datos.swift in Sources */,
+				565C94A21C4197BB00CF3D47 /* ResumenController.swift in Sources */,
+				565C94981C41718C00CF3D47 /* TamanoController.swift in Sources */,
 				564D9C891C3F3A7800191107 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +308,7 @@
 				564D9C991C3F3A7800191107 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
