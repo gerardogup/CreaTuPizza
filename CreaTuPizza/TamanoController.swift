@@ -27,6 +27,16 @@ class TamanoController: UIViewController, UIPickerViewDelegate, UIPickerViewData
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillDisappear(animated: Bool) {
+        Pizza.tamano = data[pvTamano.selectedRowInComponent(0)]
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        if Pizza.tamano != "" {
+            pvTamano.selectRow(Pizza.opcionesDeTamano.indexOf(Pizza.tamano)!, inComponent: 0, animated: true)
+        }
+    }
+    
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         // Column count: use one column.
         return 1
@@ -56,5 +66,4 @@ class TamanoController: UIViewController, UIPickerViewDelegate, UIPickerViewData
         // Pass the selected object to the new view controller.
     }
     */
-
 }

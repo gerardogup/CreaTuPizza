@@ -26,6 +26,16 @@ class MasaController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillDisappear(animated: Bool) {
+        Pizza.masa = data[pvMasa.selectedRowInComponent(0)]
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        if Pizza.masa != "" {
+            pvMasa.selectRow(Pizza.opcionesDeMasa.indexOf(Pizza.masa)!, inComponent: 0, animated: true)
+        }
+    }
+    
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         // Column count: use one column.
         return 1

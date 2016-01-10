@@ -26,6 +26,16 @@ class QuesoController: UIViewController, UIPickerViewDelegate, UIPickerViewDataS
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillDisappear(animated: Bool) {
+        Pizza.queso = data[pvQueso.selectedRowInComponent(0)]
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        if Pizza.queso != "" {
+            pvQueso.selectRow(Pizza.opcionesDeQueso.indexOf(Pizza.queso)!, inComponent: 0, animated: true)
+        }
+    }
+    
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         // Column count: use one column.
         return 1

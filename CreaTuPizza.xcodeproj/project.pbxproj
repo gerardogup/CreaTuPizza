@@ -66,17 +66,17 @@
 		564D9C871C3F3A7800191107 /* CreaTuPizza */ = {
 			isa = PBXGroup;
 			children = (
-				564D9C881C3F3A7800191107 /* AppDelegate.swift */,
-				564D9C8A1C3F3A7800191107 /* ViewController.swift */,
-				564D9C8C1C3F3A7800191107 /* Main.storyboard */,
 				564D9C8F1C3F3A7800191107 /* Assets.xcassets */,
+				564D9C8C1C3F3A7800191107 /* Main.storyboard */,
+				564D9C881C3F3A7800191107 /* AppDelegate.swift */,
 				564D9C911C3F3A7800191107 /* LaunchScreen.storyboard */,
 				564D9C941C3F3A7800191107 /* Info.plist */,
+				565C949F1C41944C00CF3D47 /* Datos.swift */,
+				564D9C8A1C3F3A7800191107 /* ViewController.swift */,
 				565C94971C41718C00CF3D47 /* TamanoController.swift */,
 				565C94991C4171F400CF3D47 /* MasaController.swift */,
 				565C949B1C41720700CF3D47 /* QuesoController.swift */,
 				565C949D1C41728800CF3D47 /* IngredientesController.swift */,
-				565C949F1C41944C00CF3D47 /* Datos.swift */,
 				565C94A11C4197BB00CF3D47 /* ResumenController.swift */,
 			);
 			path = CreaTuPizza;

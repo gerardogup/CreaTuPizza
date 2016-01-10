@@ -8,7 +8,7 @@
 
 import UIKit
 
-struct Pizza {
+class Pizza {
     static let opcionesDeTamano: [String] = [
         "No Seleccionado",
         "Chica",
@@ -40,4 +40,9 @@ struct Pizza {
         "Salami",
         "Salchicha"
     ]
+    
+    static var tamano: String = ""
+    static var masa: String = ""
+    static var queso: String = ""
+    static var ingredientes: [String] = []
 }
